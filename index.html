@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hafifax Canoe and Kayak</title>
+    <script
+			  src="https://code.jquery.com/jquery-3.6.3.min.js"
+			  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+			  crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Zulinov/skillsProjects/main/paddle-white.png">
+    <style>
+       * {
+        margin-top: 0px;
+        padding: auto;
+        margin: auto;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+       }
+       body{
+            margin: auto;
+            width: 100%;
+            padding-bottom: 10px;
+        }
+      
+      article{
+        width: 100%; margin: 0 auto;
+        max-width: 1200px;
+      }
+      h2{
+        padding: 10px 10px 10px 0px;
+      }
+      h3{
+        padding: 10px 10px 0px 0px;
+      }
+      footer{
+        width: 100%; margin: 0 auto;
+        max-width: 1200px;
+      }
+      footer div{
+            display: inline-block;
+            list-style: none;
+            margin-top: 50px;
+            padding: 20px;
+        }
+        footer p {
+            width: 80%;
+        }
+        #navbar {
+        position: relative;
+        background: #444498;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0px 40px 96px 11px ;
+        }
+       nav div{
+        width: 100%;
+       }
+       nav div li{
+        display: inline;
+        padding: 10px;
+        width: 100%;
+        
+        
+       }
+       #dropmenu{
+        display: block;
+        position: absolute;
+        top:100%;
+        background-color: rgb(51, 37, 141);
+        width: 29vh;
+        }
+       #dropmenu ul{
+        display: block;
+        margin: 10px;
+        
+       }
+       #dropmenu ul li{
+        top: 100%;
+        display: flex ;
+        font-size: 20px;
+        
+       }
+       #dropmenu ul li a{
+       text-decoration: none;
+       line-height: 20px;
+       padding: 10px;
+       color:azure;
+       text-transform: uppercase;
+       
+        }
+        
+        #mainImage{
+            max-width: 100%;
+            width: 1200px;
+            
+        }
+     
+        
+        #Companyname {
+            font-size: 45px;
+            text-transform: uppercase;
+        }
+        #menubutton{
+            height: 40px;
+            cursor: pointer;
+            float: inline-start;
+        }
+        #menubutton2{
+            height: 50px;
+            float:inline-end
+        }
+        #menubutton:hover{
+            background: #444498 ;
+        }
+      
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="navbar" >
+               <div >
+                    <li><img id="menubutton" src="https://raw.githubusercontent.com/Zulinov/skillsProjects/main/hamburger.png" alt="menu button">
+                        <div id="dropmenu">
+                            <ul>
+                                <li><a href="#">Home</a> </li>
+                                <li><a href="#">Book Trip</a></li>
+                                <li><a href="#">Admin Login</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li id="Companyname"><b>Halifax Canoe and Kayak</b></li>
+                    <li><img id="menubutton2" src="https://raw.githubusercontent.com/Zulinov/skillsProjects/main/paddle-white.png" alt="paddle"> </li>
+                </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <article>
+            <figure>
+                <img id="mainImage" src="https://raw.githubusercontent.com/Zulinov/skillsProjects/main/canoe.jpg" style="max-width: 1200;" alt="Main Image" />   
+            </figure>
+            <header>
+                <h1 style="font-size:35px;color:#4c2e89">Upcoming Adventures</h1>
+            </header>
+          
+                <h2>Halifax</h2>
+                <p>Date: 2017-04-02 <br>Duration: 4 days</p>
+                <h3>Summary</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, similique, sit amet 
+                    perferendis ipsum fugit saepe repellendus debitis maxime ducimus, 
+                    provident in soluta a consequuntur quidem ut minus iure id?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, similique, sit amet 
+                    perferendis ipsum fugit saepe repellendus debitis maxime ducimus, 
+                    provident in soluta a consequuntur quidem ut minus iure id?Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, similique, sit amet 
+                    perferendis ipsum fugit saepe repellendus debitis maxime ducimus, 
+                    provident in soluta a consequuntur quidem ut minus iure id?
+                </p>
+                <h2>Sydney</h2>
+                <p>Date: 2017-03-02 <br>Duration: 4 days</p>
+                <h3>Summary</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, similique, sit amet 
+                    perferendis ipsum fugit saepe repellendus debitis maxime ducimus,
+                    provident in soluta a consequuntur quidem ut minus iure id?Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, similique, sit amet 
+                    perferendis ipsum fugit saepe repellendus debitis maxime ducimus, 
+                    provident in soluta a consequuntur quidem ut minus iure id?Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, similique, sit amet 
+                    perferendis ipsum fugit saepe repellendus debitis maxime ducimus, 
+                    provident in soluta a consequuntur quidem ut minus iure id?
+                </p>
+        </article>
+    </main>
+       
+        <footer>
+             <div>
+                <h3>Customer Support</h3>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Order Tracker</a></li>
+                                <li><a href="#">Returns &amp; Refunds</a></li>
+                                <li><a href="#">Size Guide</a></li>
+                                <li><a href="#">Store Locator</a></li>
+                                <li><a href="#">Site Map</a></li>
+                           
+            </div>
+            <div>
+                <h3>Company Info</h3>
+                            
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Press</a></li>
+                                <li><a href="#">Sustainability</a></li>
+                                <li><a href="#">Affiliates</a></li>
+                                <li><a href="#">Students</a></li>
+                                <li><a href="#">Mobile Apps</a></li>
+             </div>            
+           
+            <div>
+                <h3>Privacy &amp; Terms</h3>
+                            
+                               <li><a href="#">Privacy &amp; Security</li>
+                                <li><a href="#">Statement</a></li>
+                                <li><a href="#">Terms &amp; Conditions</li>
+              </div> 
+            <p>Hafifax Kayak 2018</p>
+        </footer>
+
+<script>
+  
+
+$(document).ready(function() {
+  $("#menubutton").click(function() {
+    $("#dropmenu").toggle();
+  });
+});
+
+$(window).resize(function() {
+			if ($(window).width() < 800) {
+				$('body').css('font-size', '12px');
+			} else {
+				$('body').css('font-size', '20px');
+			}
+		});
+</script>
+</body>
+</html>
